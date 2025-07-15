@@ -95,6 +95,50 @@
 }
 
 @layer base {
+    .theme-win95 {
+        --background: 0 0% 90%;
+        --foreground: 0 0% 0%;
+        --card: 0 0% 98%;
+        --card-foreground: 0 0% 0%;
+        --primary: 180 20% 30%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 0 0% 80%;
+        --secondary-foreground: 0 0% 0%;
+        --accent: 0 0% 60%;
+        --accent-foreground: 0 0% 0%;
+        --border: 0 0% 50%;
+        --input: 0 0% 95%;
+        --sidebar-background: 0 0% 85%;
+        --sidebar-foreground: 0 0% 0%;
+        --sidebar-primary: 180 20% 30%;
+        --sidebar-primary-foreground: 0 0% 100%;
+        --sidebar-accent: 0 0% 70%;
+        --sidebar-accent-foreground: 0 0% 0%;
+    }
+
+    .theme-futuristic {
+        --background: 240 5% 8%;
+        --foreground: 240 15% 85%;
+        --card: 240 5% 12%;
+        --card-foreground: 240 15% 90%;
+        --primary: 260 90% 60%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 220 5% 25%;
+        --secondary-foreground: 240 15% 90%;
+        --accent: 280 80% 70%;
+        --accent-foreground: 240 15% 10%;
+        --border: 240 5% 20%;
+        --input: 240 6% 25%;
+        --sidebar-background: 240 5% 10%;
+        --sidebar-foreground: 240 15% 85%;
+        --sidebar-primary: 260 90% 60%;
+        --sidebar-primary-foreground: 0 0% 100%;
+        --sidebar-accent: 280 80% 70%;
+        --sidebar-accent-foreground: 240 15% 10%;
+    }
+}
+
+@layer base {
     * {
         @apply border-border;
     }
